@@ -51,10 +51,8 @@
 	<script>
 	document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.carousel');
-	 setTimeout(() => {
-		instance.next(200);
-	}, timeout);
-    var instances = M.Carousel.init(elems, setTimeout);
+	var tome = instance.next(200);
+    var instances = M.Carousel.init(elems, tome);
   });
 	</script>
 <!-- <script
