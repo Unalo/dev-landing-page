@@ -52,7 +52,7 @@
 	document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.carousel1');
 	var instace = document.getElementById('slide-carousel');
-	var inside = M.Carousel.getInstance(instace);
+	instace = M.Carousel.getInstance(instace);
 	var tome = inside.next();
     var instances = M.Carousel.init(elems, tome);
   });
