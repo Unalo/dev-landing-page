@@ -51,9 +51,9 @@
 	<script>
 	document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.carousel1');
-	var instace = document.getElementById('slide-carousel');
+	// var instace = document.getElementById('slide-carousel');
 	instace = M.Carousel.getInstance(instace);
-	var tome = inside.next();
+	instace.next();
     var instances = M.Carousel.init(elems, tome);
   });
 	</script>
